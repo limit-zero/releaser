@@ -5,3 +5,5 @@ releaser.phar.version
 
 /vendor/
 releaser.phar.version
+.travis/build-key.pem
+.travis/secrets.tar
