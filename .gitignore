@@ -1,0 +1,7 @@
+.travis/phar-private.pem
+releaser.phar
+releaser.phar.pubkey
+releaser.phar.version
+
+/vendor/
+releaser.phar.version
