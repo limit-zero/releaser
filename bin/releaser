@@ -3,10 +3,11 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use Limit0\Releaser;
 use Symfony\Component\Console\Application;
 
 $application = new Application('Releaser', '@package_version@');
 $application->add(new Releaser\Releases());
-$application->add(new Releaser\Release());
+$application->add(new Releaser\Create());
+$application->add(new Releaser\SelfUpdate());
+$application->add(new Releaser\Rollback());
 $application->run();

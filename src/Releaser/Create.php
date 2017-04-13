@@ -1,17 +1,17 @@
 <?php
 
-namespace Limit0\Releaser;
+namespace Releaser;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Release extends Releaser
+class Create extends Application
 {
     protected function configure()
     {
         $this
-            ->setName('release')
+            ->setName('create')
             ->setDescription('Creates a release')
         ;
     }

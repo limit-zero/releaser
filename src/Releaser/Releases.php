@@ -1,12 +1,11 @@
 <?php
 
-namespace Limit0\Releaser;
+namespace Releaser;
 
-use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Releases extends Releaser
+class Releases extends Application
 {
     protected function configure()
     {
